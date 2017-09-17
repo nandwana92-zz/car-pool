@@ -18,3 +18,5 @@ $ gulp serve
 ```
 
 After the above steps, open this [URL](http://localhost:3000/) in your browser 
+
+Also hosted online over [here](http://travel-agent-cow-23535.bitballoon.com/) 
