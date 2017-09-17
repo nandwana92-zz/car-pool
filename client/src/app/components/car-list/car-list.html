@@ -1,0 +1,7 @@
+<div class="car-list">
+  <div class="car-list__car-cards">
+    <car-card selected-car="$ctrl.selectedCar" handle-car-select="$ctrl.handleCarSelect({selectedCar: selectedCar})" car="car" ng-repeat="car in $ctrl.cars"></car-card>
+    <!-- Workaround to make item centering work properly -->
+    <div ng-repeat="thing in [1,2,3,4]" style="width: 380px;"></div>
+  </div>
+</div>

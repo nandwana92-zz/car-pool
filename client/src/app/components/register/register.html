@@ -1,0 +1,61 @@
+<div class="login-form login-form__container">
+  <md-whiteframe class="md-whiteframe-3dp login-form__wrapper">
+    <div class="login-form__header">
+      Register
+    </div>
+    <form class="login-form__form" novalidate name="registrationForm" ng-submit="$ctrl.register();">
+      <md-input-container>
+        <label>Full Name</label>
+        <input name="fullName" required type="text" ng-model="$ctrl.user.fullName">
+        <div ng-messages="registrationForm.fullName.$error">
+          <div ng-message="required">This is required!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Email ID</label>
+        <input name="emailId" required type="email" ng-model="$ctrl.user.emailId">
+        <div ng-messages="registrationForm.emailId.$error">
+          <div ng-message="required">This is required!</div>
+          <div ng-message="email">Invalid email!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Mobile Number <i>(Enter your 10-digit mobile number)</i></label>
+        <input name="mobileNumber" ng-pattern="/^[1-9]{1}[0-9]{9}$/" required type="text" ng-model="$ctrl.user.mobileNumber">
+        <div ng-messages="registrationForm.mobileNumber.$error">
+          <div ng-message="required">This is required!</div>
+          <div ng-message="pattern">Invalid mobile nubmer!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Password <i>(min 6 characters)</i></label>
+        <input name="password" required ng-minlength="5" type="password" ng-model="$ctrl.user.password">
+        <div ng-messages="registrationForm.password.$error">
+          <div ng-message="required">This is required!</div>
+          <div ng-message="minlength">Password should have a minimum of 6 characters!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Re-enter Password</label>
+        <input name="confirmPassword" required validate-password="$ctrl.user.password" type="password" ng-model="confirmPassword">
+        <div ng-messages="registrationForm.confirmPassword.$error">
+          <div ng-message="required">This is required!</div>
+          <div ng-message="noMatch">Passwords don't match!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Car Model</label>
+        <input required type="text" ng-model="$ctrl.user.carModel">
+      </md-input-container>
+      <md-button class="md-raised md-primary login-form__submit-btn" type="submit" ng-disabled="registrationForm.$invalid || $ctrl.isLoading">
+        <div class="login-form__submit-btn-text">
+          Register
+          <spinner ng-show="$ctrl.isLoading"></spinner>
+        </div>
+      </md-button>
+    </form>
+  </md-whiteframe>
+  <div class="login-form__login-register-msg">
+    Alread have an account <a ui-sref="login">Login Now</a>
+  </div>
+</div>

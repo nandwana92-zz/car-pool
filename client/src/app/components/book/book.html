@@ -1,0 +1,47 @@
+<div class="book">
+  <div class="book__map" map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="https://maps.googleapis.com/maps/api/js?key=AIzaSyATfNmFor4V6Yp-spUdvO0CCvD51f00G6I&libraries=places">
+    <ng-map disable-default-u-i="true" center="12.9715987,77.59456269999998" zoom="15">
+      <custom-marker ng-if="$ctrl.selectedCar" position="{{[$ctrl.selectedCar.currentCoordinates.lat, $ctrl.selectedCar.currentCoordinates.lng]}}">
+        <img class="book__car-on-map" src="https://i.imgur.com/k3vi0Y0.png" alt="">
+      </custom-marker>
+      <custom-marker ng-if="$ctrl.fromPlaceObject" position="{{$ctrl.fromPlaceObject.formatted_address}}">
+        <img class="book__user-on-map animated bounce" src="http://i.imgur.com/Ci51b3P.png" alt="">
+      </custom-marker>
+    </ng-map>
+    <div class="book__place-search">
+      <div class="book__place-search-input">
+        <md-input-container>
+          <label>Start From</label>
+          <input id="google-places-input" types="{{['(regions)']}}" places-auto-complete size=80 ng-model="$ctrl.rideDetails.from" component-restrictions="{country:'in'}" on-place-changed="$ctrl.handleFromChange('$ctrl.rideDetails');$ctrl.handleToChange();" />
+        </md-input-container>
+      </div>
+      <div class="book__place-search-input">
+        <md-input-container>
+          <label>Destination</label>
+          <input id="google-places-input" types="{{['(regions)']}}" places-auto-complete size=80 ng-model="$ctrl.rideDetails.to" component-restrictions="{country:'in'}" on-place-changed="$ctrl.handleToChange();" />
+        </md-input-container>
+      </div>
+    </div>
+  </div>
+  <div class="book__loading-indicator" ng-show="$ctrl.fetchingCars">
+    <div>
+      Loading...
+    </div>
+    <img src="http://i.imgur.com/2d7QHQC.png" alt="">
+  </div>
+  <div class="book__loading-indicator" ng-show="!$ctrl.fetchingCars && $ctrl.noMatch">
+    <div>
+      No cars going your way :(
+    </div>
+    <img src="https://i.imgur.com/Mu0w6jN.png" alt="">
+  </div>
+  <car-list ng-hide="$ctrl.fetchingCars" selected-car="$ctrl.selectedCar" cars="$ctrl.cars" handle-car-select="$ctrl.handleCarSelect({selectedCar: selectedCar})"></car-list>
+  <div class="book__ride-confirm-btn-container">
+    <md-button class="md-raised md-primary login-form__submit-btn" ng-disabled="!$ctrl.selectedCar" ng-click="$ctrl.requestRide();">
+      <div class="login-form__submit-btn-text">
+        Confirm Ride
+        <spinner ng-show="$ctrl.isLoading"></spinner>
+      </div>
+    </md-button>
+  </div>
+</div>

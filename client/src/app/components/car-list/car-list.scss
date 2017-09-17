@@ -1,0 +1,10 @@
+.car-list {
+  @include column;
+  &__car-cards {
+    @include row;
+    @include center-along;
+    flex-wrap: wrap;
+    flex: auto;
+    overflow: auto;
+  }
+}

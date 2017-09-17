@@ -1,0 +1,35 @@
+.login-form {
+  &__container {
+    height: 100vh;
+    @include column;
+    @include center-along;
+    @include center-across;
+  }
+  &__login-register-msg {
+    margin-top: 10px;
+  }
+  &__wrapper {
+    background-color: #ffffff;
+  }
+  &__form {
+    @include column;
+    min-width: 400px;
+    padding: 20px;
+  }
+  &__header {
+    background-color: $primary;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__submit-btn {
+    align-self: center;
+  }
+  &__submit-btn-text {
+    margin: 0 5px;
+    @include row;
+    @include center-along;
+    @include center-across;
+  }
+}

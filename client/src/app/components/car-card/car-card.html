@@ -1,0 +1,29 @@
+<div class="car-card" ng-class="{'car-card--selected': $ctrl.selectedCar.id === $ctrl.car.id}" ng-click="$ctrl.handleCarSelect({selectedCar: $ctrl.car});">
+  <img class="car-card__owner-avatar" ng-src="{{$ctrl.car.avatar}}" alt="">
+  <div class="car-card__details">
+    <div class="car-card__owner-details">
+      <div>
+        {{$ctrl.car.fullName}}
+      </div>
+      <div class="pipe-separator">
+        |
+      </div>
+      <div class="car-card__eta">
+        <i>{{$ctrl.car.eta}} min(s) away</i>
+      </div>
+      <div class="flex-filler">
+      </div>
+      <div class="car-card__rating">
+        {{$ctrl.car.rating}}
+        <img src="http://i.imgur.com/XAmvJ27.png" alt="">
+      </div>
+    </div>
+    <div>
+      <b>Route</b>: Koramangala to Whitefield
+    </div>
+    <div>
+      <span><b>Car</b>: {{$ctrl.car.model}}</span>
+      <span><b>Seats Available</b>: {{$ctrl.car.availableSeatCount}}</span>
+    </div>
+  </div>
+</div>

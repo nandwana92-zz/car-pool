@@ -1,0 +1,756 @@
+{
+  "users": [],
+  "localities": {
+    "MARATHAHALLI": "Marathahalli, Bengaluru, Karnataka, India",
+    "BTM": "BTM Layout, Bengaluru, Karnataka, India",
+    "HSR": "HSR Layout, Bengaluru, Karnataka, India",
+    "BANASHANKARI": "Banashankari, Bengaluru, Karnataka, India",
+    "DOMLUR": "Domlur, Bengaluru, Karnataka, India",
+    "JAYANAGAR": "Jayanagar, Bengaluru, Karnataka, India",
+    "KORAMANGALA": "Koramangala, Bengaluru, Karnataka, India",
+    "RAJAJINAGAR": "Rajajinagar, Bengaluru, Karnataka, India",
+    "HEBBAL": "Hebbal, Bengaluru, Karnataka, India",
+    "WHITEFIELD": "Whitefield, Bengaluru, Karnataka, India",
+    "HALASURU": "Halasuru, Bengaluru, Karnataka, India",
+    "MAJESTIC": "Majestic, Bengaluru, Karnataka, India",
+    "INDIRANAGAR": "Indiranagar, Bengaluru, Karnataka, India",
+    "BELLANDUR": "Bellandur, Bengaluru, Karnataka, India",
+    "YESWANTHPUR": "Yeshwanthpur, Bengaluru, Karnataka, India",
+    "MATHIKERE": "Mathikere, Bengaluru, Karnataka, India",
+    "CHICKPETE": "Chikpete, Bengaluru, Karnataka, India"
+  },
+  "cars": [
+    {
+      "id": 1,
+      "fullName": "Shery Cobian",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Micra",
+      "rating": 4.5,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.926253,
+        "lng": 77.6281793
+      },
+      "from": "BANASHANKARI",
+      "to": "DOMLUR",
+      "checkpoints": [
+        "BANASHANKARI",
+        "BTM",
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD",
+        "HEBBAL",
+        "INDIRANAGAR",
+        "HALASURU",
+        "DOMLUR"
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Tandra Pruett",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 3,
+      "model": "Polo",
+      "rating": 4.9,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.925446,
+        "lng": 77.619839
+      },
+      "from": "BTM",
+      "to": "DOMLUR",
+      "checkpoints": [
+        "BTM",
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD",
+        "HEBBAL",
+        "INDIRANAGAR",
+        "HALASURU",
+        "DOMLUR"
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Shaunta Grajeda",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 7,
+      "model": "Polo",
+      "rating": 1.8,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.930211,
+        "lng": 77.628243
+      },
+      "from": "KORAMANGALA",
+      "to": "DOMLUR",
+      "checkpoints": [
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD",
+        "HEBBAL",
+        "INDIRANAGAR",
+        "HALASURU",
+        "DOMLUR"
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "Velma Wingerter",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Micra",
+      "rating": 3.7,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.926423,
+        "lng": 77.612935
+      },
+      "from": "BANASHANKARI",
+      "to": "WHITEFIELD",
+      "checkpoints": [
+        "BANASHANKARI",
+        "BTM",
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD"
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "Tricia Pietsch",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 5,
+      "model": "Polo",
+      "rating": 2.6,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.930293,
+        "lng": 77.623877
+      },
+      "from": "BTM",
+      "to": "WHITEFIELD",
+      "checkpoints": [
+        "BTM",
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD"
+      ]
+    },
+    {
+      "id": 6,
+      "fullName": "Allena Schewe",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 2,
+      "model": "Figo",
+      "rating": 1.8,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.934977,
+        "lng": 77.634383
+      },
+      "from": "KORAMANGALA",
+      "to": "INDIRANAGAR",
+      "checkpoints": [
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD",
+        "HEBBAL",
+        "INDIRANAGAR"
+      ]
+    },
+    {
+      "id": 7,
+      "fullName": "Zenia Fontaine",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 3,
+      "model": "Octavia",
+      "rating": 3.2,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.932377,
+        "lng": 77.631585
+      },
+      "from": "KORAMANGALA",
+      "to": "WHITEFIELD",
+      "checkpoints": [
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD"
+      ]
+    },
+    {
+      "id": 8,
+      "fullName": "Derek Lockett",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 3,
+      "model": "Figo",
+      "rating": 4.9,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.930636,
+        "lng": 77.627776
+      },
+      "from": "BTM",
+      "to": "WHITEFIELD",
+      "checkpoints": [
+        "BTM",
+        "KORAMANGALA",
+        "HSR",
+        "BELLANDUR",
+        "MARATHAHALLI",
+        "WHITEFIELD"
+      ]
+    },
+    {
+      "id": 9,
+      "fullName": "Adell Dennen",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 5,
+      "model": "Figo",
+      "rating": 4.4,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.969491,
+        "lng": 77.744123
+      },
+      "from": "DOMLUR",
+      "to": "BANASHANKARI",
+      "checkpoints": [
+        "DOMLUR",
+        "HALASURU",
+        "INDIRANAGAR",
+        "HEBBAL",
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA",
+        "BTM",
+        "BANASHANKARI"
+      ]
+    },
+    {
+      "id": 10,
+      "fullName": "Rupert Schriver",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 8,
+      "model": "Figo",
+      "rating": 4.9,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.96382,
+        "lng": 77.748065
+      },
+      "from": "DOMLUR",
+      "to": "BTM",
+      "checkpoints": [
+        "DOMLUR",
+        "HALASURU",
+        "INDIRANAGAR",
+        "HEBBAL",
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA",
+        "BTM"
+      ]
+    },
+    {
+      "id": 11,
+      "fullName": "Ethelene Mizrahi",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Micra",
+      "rating": 4.9,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.966191,
+        "lng": 77.7607027
+      },
+      "from": "DOMLUR",
+      "to": "KORAMANGALA",
+      "checkpoints": [
+        "DOMLUR",
+        "HALASURU",
+        "INDIRANAGAR",
+        "HEBBAL",
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA"
+      ]
+    },
+    {
+      "id": 12,
+      "fullName": "Roxann Stanton",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 8,
+      "model": "Etios",
+      "rating": 3.7,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.963574,
+        "lng": 77.7586793
+      },
+      "from": "WHITEFIELD",
+      "to": "BANASHANKARI",
+      "checkpoints": [
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA",
+        "BTM",
+        "BANASHANKARI"
+      ]
+    },
+    {
+      "id": 13,
+      "fullName": "Starla Brockett",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 1,
+      "model": "Etios",
+      "rating": 2.6,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.969062,
+        "lng": 77.7508523
+      },
+      "from": "WHITEFIELD",
+      "to": "BTM",
+      "checkpoints": [
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA",
+        "BTM"
+      ]
+    },
+    {
+      "id": 14,
+      "fullName": "Leland Lenihan",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Octavia",
+      "rating": 4.9,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.969606,
+        "lng": 77.7335093
+      },
+      "from": "INDIRANAGAR",
+      "to": "KORAMANGALA",
+      "checkpoints": [
+        "INDIRANAGAR",
+        "HEBBAL",
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA"
+      ]
+    },
+    {
+      "id": 15,
+      "fullName": "Corinne Kerschner",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 1,
+      "model": "Polo",
+      "rating": 2.6,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.969249,
+        "lng": 77.7249993
+      },
+      "from": "WHITEFIELD",
+      "to": "KORAMANGALA",
+      "checkpoints": [
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA"
+      ]
+    },
+    {
+      "id": 16,
+      "fullName": "Rickie Cochran",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Polo",
+      "rating": 2.6,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.960306,
+        "lng": 77.7211523
+      },
+      "from": "WHITEFIELD",
+      "to": "BTM",
+      "checkpoints": [
+        "WHITEFIELD",
+        "MARATHAHALLI",
+        "BELLANDUR",
+        "HSR",
+        "KORAMANGALA",
+        "BTM"
+      ]
+    },
+    {
+      "id": 17,
+      "fullName": "Troy Plattner",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 5,
+      "model": "Duster",
+      "rating": 4.4,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.977219,
+        "lng": 77.5664203
+      },
+      "from": "YESWANTHPUR",
+      "to": "BANASHANKARI",
+      "checkpoints": [
+        "YESWANTHPUR",
+        "RAJAJINAGAR",
+        "MATHIKERE",
+        "MAJESTIC",
+        "CHICKPET",
+        "KORAMANGALA",
+        "HSR",
+        "BTM",
+        "BANASHANKARI"
+      ]
+    },
+    {
+      "id": 18,
+      "fullName": "Marci Mattingly",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 1,
+      "model": "Figo",
+      "rating": 4.9,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.974905,
+        "lng": 77.5571933
+      },
+      "from": "YESWANTHPUR",
+      "to": "BTM",
+      "checkpoints": [
+        "YESWANTHPUR",
+        "RAJAJINAGAR",
+        "MATHIKERE",
+        "MAJESTIC",
+        "CHICKPET",
+        "KORAMANGALA",
+        "HSR",
+        "BTM"
+      ]
+    },
+    {
+      "id": 19,
+      "fullName": "Kacey Hillen",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 5,
+      "model": "Polo",
+      "rating": 3.7,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.97082,
+        "lng": 77.5504143
+      },
+      "from": "RAJAJINAGAR",
+      "to": "HSR",
+      "checkpoints": [
+        "RAJAJINAGAR",
+        "MATHIKERE",
+        "MAJESTIC",
+        "CHICKPET",
+        "KORAMANGALA",
+        "HSR"
+      ]
+    },
+    {
+      "id": 20,
+      "fullName": "Babara Cast",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 5,
+      "model": "Polo",
+      "rating": 3.2,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.961488,
+        "lng": 77.5547543
+      },
+      "from": "MATHIKERE",
+      "to": "KORAMANGALA",
+      "checkpoints": ["MATHIKERE", "MAJESTIC", "CHICKPET", "KORAMANGALA"]
+    },
+    {
+      "id": 21,
+      "fullName": "Sheron Mejia",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 6,
+      "model": "Micra",
+      "rating": 2.6,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.955945,
+        "lng": 77.5429473
+      },
+      "from": "RAJAJINAGAR",
+      "to": "BTM",
+      "checkpoints": [
+        "RAJAJINAGAR",
+        "MATHIKERE",
+        "MAJESTIC",
+        "CHICKPET",
+        "KORAMANGALA",
+        "HSR",
+        "BTM"
+      ]
+    },
+    {
+      "id": 22,
+      "fullName": "Vella Vessels",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 1,
+      "model": "Polo",
+      "rating": 3.2,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.939043,
+        "lng": 77.5508863
+      },
+      "from": "MAJESTIC",
+      "to": "HSR",
+      "checkpoints": ["MAJESTIC", "CHICKPET", "KORAMANGALA", "HSR"]
+    },
+    {
+      "id": 23,
+      "fullName": "Addie Rape",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 3,
+      "model": "Figo",
+      "rating": 1.8,
+      "availableSeatCount": 2,
+      "currentCoordinates": {
+        "lat": 12.911345,
+        "lng": 77.5572523
+      },
+      "from": "MATHIKERE",
+      "to": "KORAMANGALA",
+      "checkpoints": ["MATHIKERE", "MAJESTIC", "CHICKPET", "KORAMANGALA"]
+    },
+    {
+      "id": 24,
+      "fullName": "Jennifer Oberlander",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 7,
+      "model": "Micra",
+      "rating": 2.6,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.911085,
+        "lng": 77.5375553
+      },
+      "from": "YESWANTHPUR",
+      "to": "KORAMANGALA",
+      "checkpoints": [
+        "YESWANTHPUR",
+        "RAJAJINAGAR",
+        "MATHIKERE",
+        "MAJESTIC",
+        "CHICKPET",
+        "KORAMANGALA"
+      ]
+    },
+    {
+      "id": 25,
+      "fullName": "Milford Done",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 3,
+      "model": "Octavia",
+      "rating": 2.6,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.910591,
+        "lng": 77.6297383
+      },
+      "from": "BANASHANKARI",
+      "to": "YESWANTHPUR",
+      "checkpoints": [
+        "BANASHANKARI",
+        "BTM",
+        "HSR",
+        "KORAMANGALA",
+        "CHICKPET",
+        "MAJESTIC",
+        "MATHIKERE",
+        "RAJAJINAGAR",
+        "YESWANTHPUR"
+      ]
+    },
+    {
+      "id": 26,
+      "fullName": "Belia Quezada",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 5,
+      "model": "Micra",
+      "rating": 1.8,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.902038,
+        "lng": 77.6230983
+      },
+      "from": "BTM",
+      "to": "YESWANTHPUR",
+      "checkpoints": [
+        "BTM",
+        "HSR",
+        "KORAMANGALA",
+        "CHICKPET",
+        "MAJESTIC",
+        "MATHIKERE",
+        "RAJAJINAGAR",
+        "YESWANTHPUR"
+      ]
+    },
+    {
+      "id": 27,
+      "fullName": "Janay Randolph",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 1,
+      "model": "Duster",
+      "rating": 1.8,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.89886,
+        "lng": 77.6132583
+      },
+      "from": "HSR",
+      "to": "RAJAJINAGAR",
+      "checkpoints": [
+        "HSR",
+        "KORAMANGALA",
+        "CHICKPET",
+        "MAJESTIC",
+        "MATHIKERE",
+        "RAJAJINAGAR"
+      ]
+    },
+    {
+      "id": 28,
+      "fullName": "Pearle Seybold",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 8,
+      "model": "Polo",
+      "rating": 4.5,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.897496,
+        "lng": 77.6494603
+      },
+      "from": "KORAMANGALA",
+      "to": "MATHIKERE",
+      "checkpoints": ["KORAMANGALA", "CHICKPET", "MAJESTIC", "MATHIKERE"]
+    },
+    {
+      "id": 29,
+      "fullName": "Milissa Petrone",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Polo",
+      "rating": 3.7,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.898454,
+        "lng": 77.6573343
+      },
+      "from": "BTM",
+      "to": "RAJAJINAGAR",
+      "checkpoints": [
+        "BTM",
+        "HSR",
+        "KORAMANGALA",
+        "CHICKPET",
+        "MAJESTIC",
+        "MATHIKERE",
+        "RAJAJINAGAR"
+      ]
+    },
+    {
+      "id": 30,
+      "fullName": "Essie Funderburk",
+      "avatar": "http://i.imgur.com/k7mw0qL.png",
+      "eta": 3,
+      "model": "Octavia",
+      "rating": 4.5,
+      "availableSeatCount": 3,
+      "currentCoordinates": {
+        "lat": 12.894272,
+        "lng": 77.6507823
+      },
+      "from": "HSR",
+      "to": "MAJESTIC",
+      "checkpoints": ["HSR", "KORAMANGALA", "CHICKPET", "MAJESTIC"]
+    },
+    {
+      "id": 31,
+      "fullName": "Spring Barile",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Duster",
+      "rating": 3.7,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.900506,
+        "lng": 77.6476903
+      },
+      "from": "KORAMANGALA",
+      "to": "MATHIKERE",
+      "checkpoints": ["KORAMANGALA", "CHICKPET", "MAJESTIC", "MATHIKERE"]
+    },
+    {
+      "id": 32,
+      "fullName": "Sonya Mainer",
+      "avatar": "http://i.imgur.com/VKVLsal.png",
+      "eta": 2,
+      "model": "Micra",
+      "rating": 4.4,
+      "availableSeatCount": 1,
+      "currentCoordinates": {
+        "lat": 12.896937,
+        "lng": 77.6415543
+      },
+      "from": "KORAMANGALA",
+      "to": "YESWANTHPUR",
+      "checkpoints": [
+        "KORAMANGALA",
+        "CHICKPET",
+        "MAJESTIC",
+        "MATHIKERE",
+        "RAJAJINAGAR",
+        "YESWANTHPUR"
+      ]
+    }
+  ]
+}

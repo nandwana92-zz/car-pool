@@ -1,0 +1,77 @@
+.book {
+  height: 100vh;
+  @include column;
+  &__car-on-map {
+    height: 48px;
+  }
+  &__user-on-map {
+    height: 36px;
+  }
+  &__map {
+    position: relative;
+  }
+  &__place-search {
+    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    @include row;
+    justify-content: space-around;
+  }
+  &__place-search-input {
+    margin: 5px 15px;
+    background: rgba(255, 255, 255, 0.75);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  &__loading-indicator {
+    flex: auto;
+    @include column;
+    @include center-along;
+    @include center-across;
+    font-weight: bold;
+    font-size: 24px;
+    img {
+      height: 96px;
+      margin-top: 15px;
+    }
+  }
+  &__ride-confirm-btn-container {
+    border-top: 1px solid $light-grey;
+    @include row;
+    @include center-along;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 768px) {
+  .book {
+    &__place-search {
+      @include column;
+    }
+  }
+}
+input#google-places-input::-webkit-input-placeholder {
+  opacity: 0;
+}
+input#google-places-input:-moz-placeholder {
+  opacity: 0;
+}
+input#google-places-input::-moz-placeholder {
+  opacity: 0;
+}
+input#google-places-input:-ms-input-placeholder {
+  opacity: 0;
+}
+ng-map {
+  height: 400px;
+}
+@media (max-width: 425px) {
+  ng-map {
+    height: 300px;
+  }
+}
+car-list {
+  flex: auto;
+  overflow: auto;
+}

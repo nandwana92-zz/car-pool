@@ -1,0 +1,32 @@
+<div class="login-form login-form__container">
+  <md-whiteframe class="md-whiteframe-3dp login-form__wrapper">
+    <div class="login-form__header">
+      Login
+    </div>
+    <form class="login-form__form" novalidate name="loginForm" ng-submit="$ctrl.login();">
+      <md-input-container>
+        <label>Username <i>(10-digit mobile number or email ID)</i></label>
+        <input name="username" required ng-model="$ctrl.user.username">
+        <div ng-messages="loginForm.username.$error">
+          <div ng-message="required">This is required!</div>
+        </div>
+      </md-input-container>
+      <md-input-container>
+        <label>Password</label>
+        <input name="password" required type="password" ng-model="$ctrl.user.password">
+        <div ng-messages="loginForm.password.$error">
+          <div ng-message="required">This is required!</div>
+        </div>
+      </md-input-container>
+      <md-button class="md-raised md-primary login-form__submit-btn" type="submit" ng-disabled="loginForm.$invalid || $ctrl.isLoading">
+        <div class="login-form__submit-btn-text">
+          Login
+          <spinner ng-show="$ctrl.isLoading"></spinner>
+        </div>
+      </md-button>
+    </form>
+  </md-whiteframe>
+  <div class="login-form__login-register-msg">
+    Don't have an account <a ui-sref="register">Register Now</a>
+  </div>
+</div>
